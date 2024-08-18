@@ -6,21 +6,29 @@
 - **GitHub:** [github.com/Huzaifa7524](https://github.com/Huzaifa7524)
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Requirements](#requirements)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Configuration](#configuration)
-7. [Documentation](#documentation)
-8. [Contributing](#contributing)
-9. [License](#license)
+- [EDA LangChain Agent](#eda-langchain-agent)
+  - [Author: Huzaifa Tahir](#author-huzaifa-tahir)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Flow](#flow)
+  - [Features](#features)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Configuration](#configuration)
+  - [Documentation](#documentation)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Introduction
 
 The EDA LangChain Agent is an advanced tool for performing Exploratory Data Analysis (EDA) using natural language queries. It leverages the power of large language models and the LangChain framework to provide comprehensive insights into datasets, generate visualizations, and offer statistical analyses.
 
 This tool is designed to streamline the EDA process, making it more accessible to data scientists, analysts, and researchers of all skill levels. By using natural language processing, it allows users to explore their data through intuitive queries, receiving in-depth analyses and visualizations in response.
+
+## Flow
+
+![Flow](images/flow.png)
 
 ## Features
 
@@ -35,7 +43,7 @@ This tool is designed to streamline the EDA process, making it more accessible t
 ## Requirements
 
 - Python 3.10+
-- OpenAI API  + GROQ key 
+- OpenAI API  + GROQ key `I am useing GROQ key you  can also use OpenAI API `
 - Required Python libraries (see `requirements.txt`)
 
 ## Installation
@@ -100,5 +108,5 @@ Please ensure that your code adheres to the existing style and that you have tes
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
